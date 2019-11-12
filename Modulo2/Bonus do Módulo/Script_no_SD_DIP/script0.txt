@@ -1,0 +1,78 @@
+DELAY 3000
+GUI r
+DELAY 100
+STRING notepad
+DELAY 100
+ENTER
+DELAY 100
+STRING Script0
+ENTER
+DELAY 100
+STRING    _   ___   _   ___ ___ _____ ___         ___          _ _   _ ___ ___ 
+DELAY 100
+ENTER
+STRING   /_\ / __| /_\ |   \_ _|_   _|_ _|  ___  | _ ) __ _ __| | | | / __| _ )
+DELAY 100
+ENTER
+STRING  / _ \ (__ / _ \| |) | |  | |  | |  |___| | _ \/ _`  / _`  | |_| \__ \ _ \
+DELAY 100
+ENTER
+STRING /_/ \_\___/_/ \_\___/___| |_| |___|       |___/\__,_\__,_|\___/|___/___/
+DELAY 100
+ENTER
+ENTER
+STRING Created by Leonardo La Rosa - lrosa@acaditi.com.br
+ENTER
+ENTER
+STRING Menu de Scripts do dispositivo ATMega32U4 + SD + DIP SWITCH
+ENTER
+ENTER
+DELAY 100
+STRING 0000 - Script0.txt  - Menu de Utilizacao (este arquivo)
+ENTER
+DELAY 100
+STRING 0001 - Script1.txt  - Descricao do script
+ENTER
+DELAY 100
+STRING 0010 - Script2.txt  - Descricao do script
+ENTER
+DELAY 100
+STRING 0011 - Script3.txt  - Descricao do script
+ENTER
+DELAY 100
+STRING 0100 - Script4.txt  - Descricao do script
+ENTER
+DELAY 100
+STRING 0101 - Script5.txt  - Descricao do script
+ENTER
+DELAY 100
+STRING 0110 - Script6.txt  - Descricao do script
+ENTER
+DELAY 100
+STRING 0111 - Script7.txt  - Descricao do script
+ENTER
+DELAY 100
+STRING 1000 - Script8.txt  - Descricao do script
+ENTER
+DELAY 100
+STRING 1001 - Script9.txt  - Descricao do script
+ENTER
+DELAY 100
+STRING 1010 - Script10.txt - Descricao do script
+ENTER
+DELAY 100
+STRING 1011 - Script11.txt - Descricao do script
+ENTER
+DELAY 100
+STRING 1100 - Script12.txt - Descricao do script
+ENTER
+DELAY 100
+STRING 1101 - Script13.txt - Descricao do script
+ENTER
+DELAY 100
+STRING 1110 - Script14.txt - Descricao do script
+ENTER
+DELAY 100
+STRING 1111 - Script15.txt - Descricao do script
+ENTER
+DELAY 100
