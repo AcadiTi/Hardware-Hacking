@@ -21,11 +21,10 @@ void setup() {
  pinMode(13,OUTPUT);
 
 }
-
 void loop() {
- mySwitch.send("100110111011001110101000");
+ mySwitch.send("000111100001010110111000");
  digitalWrite(13,HIGH);
  delay(500);
  digitalWrite(13,LOW);
- delay(10000); 
+ delay(10000);
 }
