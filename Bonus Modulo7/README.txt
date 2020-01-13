@@ -1,4 +1,4 @@
-Informações deste módulo:
+Informações deste módulo 7:
 
 O conteúdo deste módulo é parte integrante do curso de Hardware Hacking fornecido pela AcadiTI (www.acaditi.com.br)
 
